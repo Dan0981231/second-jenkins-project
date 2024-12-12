@@ -48,8 +48,6 @@ test.describe("Web Tables Practices", () => {
  
   for (let checkbox of checkBoxes) {
     await checkbox.check();
-    await page.waitForTimeout(1000);
-
   }
 
   });
